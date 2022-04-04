@@ -7,11 +7,13 @@ public class Game extends Canvas implements Runnable {
 
     private boolean isRunning = false;
     private Thread thread;
+    private Handler handler;
 
 
     public Game() {
         new Window(1000,563,"lEFT 4 DEAD 3",this);
         start();
+        handler= new Handler();
     }
 
     public static void main(String[] args) {
@@ -64,7 +66,7 @@ public class Game extends Canvas implements Runnable {
 
     }
     public void tick(){
-
+        handler.tick();
     }
     public void render()
     {
@@ -78,6 +80,7 @@ public class Game extends Canvas implements Runnable {
         ////////////////////////////////// all the lines of code below this area in charge of rendering/drawing stuff
         g.setColor(Color.RED);
         g.fillRect(5,5,10,10);
+        handler.render(g);
         //////////////////////////////////
         g.dispose();
         bs.show();
