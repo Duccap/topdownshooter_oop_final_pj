@@ -6,8 +6,9 @@ This project is inspired by a similar web-browser game surviv.io:
 
 ## The features
 We expect our project would have some main features:
-  -player can move and control survivor to move and shoot zombies, also, they are able to interact with object likes crate to get ammo, health kit, etc.
-  -zombies are our main enemy, they will chase after player to attack.
+  - player can move and control survivor to move and shoot zombies, also, they are able to interact with object likes crate to get ammo, health kit, etc.
+  - zombies are our main enemy, they will chase after player to attack.
+
 Furthermore, its nice to have some more feature added:
   - sounds, tracks come along with events like horde, boss in order to grow hype of the game.
   -  multiplayer feature.
