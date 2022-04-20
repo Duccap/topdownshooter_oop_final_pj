@@ -3,17 +3,22 @@ import java.awt.image.BufferStrategy;
 
 public class Game extends Canvas implements Runnable {
 
-    //private static final long serialVersionUID = 1L; //this line will asure there will be no warnings, just ignore it!!
+    private final static long serialversionUID = 1L;
 
     private boolean isRunning = false;
     private Thread thread;
     private Handler handler;
 
-
     public Game() {
         new Window(1000,563,"lEFT 4 DEAD 3",this);
         start();
         handler= new Handler();
+        this.addKeyListener(new KeyInput(handler));
+
+        //handler.addObject(new Box(100, 100, ID.Block));
+
+        handler.addObject(new Wizard(100, 100, ID.Player, handler));
+
     }
 
     public static void main(String[] args) {
@@ -35,8 +40,10 @@ public class Game extends Canvas implements Runnable {
             e.printStackTrace();
         }
     }
+
     @Override
-    public void run() { //this is a game loop, to be simple, this method will call tick() 60 times per sec and call render for thousands time
+    public void run() {
+        // TODO Auto-generated method stub
         System.out.println("o");
         this.requestFocus();
         long lastTime = System.nanoTime();
@@ -63,8 +70,8 @@ public class Game extends Canvas implements Runnable {
             }
         }
         stop();
-
     }
+
     public void tick(){
         handler.tick();
     }
