@@ -3,6 +3,7 @@ The name is " LEFT 4 DEAD 3 " - a zombie apocalyse game in that we will play as 
 
 This project is inspired by a similar web-browser game surviv.io:
 ![surviv.io](https://lh3.googleusercontent.com/Q1p5yxa1ra3F1aqoL1mqfaYenoFPhZRv5HnYfJw7c-W99XUWF4whgQ21gADYFZlIVTM=w512)
+![ss_ffb66b73510a959577d7491b14766403f862ac6a 600x338](https://user-images.githubusercontent.com/95846380/164362890-ac84d988-22ca-4fb1-9296-20472130faa7.jpg)
 
 ## The features
 We expect our project would have some main features:
