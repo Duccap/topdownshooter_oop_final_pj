@@ -14,11 +14,13 @@ Furthermore, its nice to have some more feature added:
   -  multiplayer feature.
 
 ## Contributer:
-  Our team includes 4 members:
-    - Le Quy Minh Duc ( Develop the engine of the game)
-    - Tran Long Gia Huy (Develop the player)
-    - Nguyen Thi Kim Thu (Develop the game's enemy)
-    - Dang Quoc Toan (Develop the game's environment)
+Our team includes 4 members:
+  - Le Quy Minh Duc ( Develop the engine of the game)
+  - Tran Long Gia Huy (Develop the player)
+  - Nguyen Thi Kim Thu (Develop the game's enemy)
+  - Dang Quoc Toan (Develop the game's environment)
+ 
+
 
 ### Refences:
   - How to develop 2D game in Java: https://bitly.com.vn/di1cs8
