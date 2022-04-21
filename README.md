@@ -20,6 +20,8 @@ Furthermore, its nice to have some more feature added:
     - Nguyen Thi Kim Thu (Develop the game's enemy)
     - Dang Quoc Toan (Develop the game's environment)
 
-
+#Refences:
+  - How to develop 2D game in Java: https://bitly.com.vn/di1cs8
+  - Top-down shooter game in Java:  https://bitly.com.vn/ee30d7
 
 
