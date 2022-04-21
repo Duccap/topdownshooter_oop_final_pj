@@ -1,4 +1,4 @@
-## About the project
+## About the project (IN DEVELOPMENT)
 The name is " LEFT 4 DEAD 3 " - a zombie apocalyse game in that we will play as survivor trying to go through thousands of blood thirsty, aggressive zombies.
 
 This project is inspired by a similar web-browser game surviv.io:
@@ -16,9 +16,9 @@ Furthermore, its nice to have some more feature added:
 ## Contributer:
   Our team includes 4 members:
     - Le Quy Minh Duc ( Develop the engine of the game)
-    - 
-    -
-    -
+    - Tran Long Gia Huy (Develop the player)
+    - Nguyen Thi Kim Thu (Develop the game's enemy)
+    - Dang Quoc Toan (Develop the game's environment)
 
 
 
