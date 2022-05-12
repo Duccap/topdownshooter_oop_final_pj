@@ -1,5 +1,7 @@
 import java.awt.*;
 import java.awt.image.BufferStrategy;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
 
 public class Game extends Canvas implements Runnable {
 
@@ -8,20 +10,44 @@ public class Game extends Canvas implements Runnable {
     private boolean isRunning = false;
     private Thread thread;
     private Handler handler;
+    private BufferedImage level = null;
 
-    public Game() {
+    public Game() throws IOException {
         new Window(1000,563,"lEFT 4 DEAD 3",this);
         start();
         handler= new Handler();
         this.addKeyListener(new KeyInput(handler));
 
+        BufferedImageLoader loader = new BufferedImageLoader();
+        level = loader.loadImage("/level.png");
+
         //handler.addObject(new Box(100, 100, ID.Block));
 
-        handler.addObject(new Wizard(100, 100, ID.Player, handler));
+        loadLevel(level);
 
     }
+    private void loadLevel(BufferedImage image){
+        int w = image.getWidth();
+        int h = image.getHeight();
 
-    public static void main(String[] args) {
+        for (int xx= 0 ;xx<w;xx++){
+            for (int yy= 0 ; yy<h;yy++){
+                int pixel = image.getRGB(xx,yy);
+                int red = (pixel >> 16) & 0xff;
+                int green = (pixel >> 8) & 0xff;
+                int blue = (pixel) & 0xff;
+
+                if (red ==255){
+                    handler.addObject(new Block(xx*32,yy*32,ID.Block));
+                }
+                if (blue ==255){
+                    handler.addObject(new Wizard(xx*32,yy*32,ID.Player,handler));
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) throws IOException {
         new Game();
 
     }
@@ -86,7 +112,7 @@ public class Game extends Canvas implements Runnable {
 
         ////////////////////////////////// all the lines of code below this area in charge of rendering/drawing stuff
         g.setColor(Color.RED);
-        g.fillRect(5,5,10,10);
+        g.fillRect(0,0,1000,563);
         handler.render(g);
         //////////////////////////////////
         g.dispose();
