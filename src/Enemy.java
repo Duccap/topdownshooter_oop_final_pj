@@ -11,8 +11,8 @@ public class Enemy extends GameObject {
     int choose = 0;
     int hp = 100;
 
-    public Enemy(int x, int y, ID id, Handler handler) {
-        super(x, y, id);
+    public Enemy(int x, int y, ID id, Handler handler, SpriteSheet ss) {
+        super(x, y, id,ss);
         this.handler = handler;
         //TODO Auto-generated constructor stub
     }

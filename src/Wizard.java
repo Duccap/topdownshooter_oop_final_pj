@@ -2,10 +2,12 @@ import java.awt.*;
 
 public class Wizard extends GameObject {
     Handler handler;
-
-    public Wizard(int x, int y, ID id, Handler handler) {
-        super(x, y, id);
+    Game game;
+    public Wizard(int x, int y, ID id, Handler handler,Game game, SpriteSheet ss) {
+        super(x, y, id,ss);
         this.handler = handler;
+        this.game=game;
+
     }
 
     @Override
@@ -34,6 +36,12 @@ public class Wizard extends GameObject {
                 if (getBounds().intersects(temp.getBounds())){
                     x+=velX*-1;
                     y+=velY*-1;
+                }
+            }
+            if (temp.getID()== ID.Crate){
+                if (getBounds().intersects(temp.getBounds())){
+                    game.ammo+=10;
+                    handler.removeObject(temp);
                 }
             }
         }
