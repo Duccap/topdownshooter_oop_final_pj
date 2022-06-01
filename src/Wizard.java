@@ -44,6 +44,11 @@ public class Wizard extends GameObject {
                     handler.removeObject(temp);
                 }
             }
+            if (temp.getID()== ID.Enemy){
+                if (getBounds().intersects(temp.getBounds())){
+                    game.hp--;
+                }
+            }
         }
     }
     @Override
