@@ -20,7 +20,7 @@ TEAM_NULL
 | Le Quy Minh Duc     | ITITIU18297 | ITITIU18297@student.hcmiu.edu.vn | Project Manager, create the engine - skeleton of the game    |
 | Nguyen Thi Kim Thu  | ITITIU20315 | Ititiu20315@student.hcmiu.edu.vn | Developer, Enemy                                             |
 | Tran Long Gia Huy   | ITITIU19131 | Ititiu19131@student.hcmiu.edu.vn | Developer, Player                                            |
-| Dang Quoc Toan      | ITITIU20232 | ITITIU20232@student.hcmiu.edu.vn | Developer, zombies                                           |
+| Dang Quoc Toan      | ITITIU20320 | ititiu20320@student.hcmiu.edu.vn | Developer, zombies                                           |
 
 
 ### 1.3. About Our Game
