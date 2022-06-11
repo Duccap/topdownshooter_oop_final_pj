@@ -54,7 +54,7 @@ you are an unfortunate wizard in the zombie apocalypse. Your only magic is the a
    [^link]: Java Game Programming Wizard Top Down Shooter: [https://www.youtube.com/watch?v=om59cwR7psI&list=PL_QPQmz5C6WUF-pOQDsbsKbaBZqXj4qSq](https://www.youtube.com/watch?v=e9jRfgjV4FQ)
 
 ### 3. UML CLASS DIAGRAM:
-Engine: ![](topdownshooter_oop_final_pj/images/EnemyUML.png)
+Engine: ![My Image](images/EngineUML.png)
 Player: ![](PlayerUML.png)
 Enemy:![](EnemyUML.png)
 Environment: ![](environmentUML.png)
