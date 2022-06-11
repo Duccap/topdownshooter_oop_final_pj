@@ -54,11 +54,11 @@ you are an unfortunate wizard in the zombie apocalypse. Your only magic is the a
    [^link]: Java Game Programming Wizard Top Down Shooter: [https://www.youtube.com/watch?v=om59cwR7psI&list=PL_QPQmz5C6WUF-pOQDsbsKbaBZqXj4qSq](https://www.youtube.com/watch?v=e9jRfgjV4FQ)
 
 ### 3. UML CLASS DIAGRAM:
-Engine: ![My Image](images/EngineUML.png)
-Player: ![](PlayerUML.png)
-Enemy:![](EnemyUML.png)
-Environment: ![](environmentUML.png)
-UML: ![](UML.png)
+Engine: ![](topdownshooter_oop_final_pj/images/EnemyUML.png)
+Player: ![](topdownshooter_oop_final_pj/images/PlayerUML.png)
+Enemy:![](topdownshooter_oop_final_pj/images/EnemyUML.png)
+Environment: ![](topdownshooter_oop_final_pj/images/environmentUML.png)
+UML: ![](topdownshooter_oop_final_pj/images/UML.png)
 
 
 ### 4. FEATURES:
@@ -89,7 +89,7 @@ UML: ![](UML.png)
 3. Problems with the IDE, file lost, etc.
 
 ### 6. RESULT / CONCLUSION:
-![](finalres.png)
+![](topdownshooter_oop_final_pj/images/finalres.png)
 
 
 ### 7. WHAT WE HAVE LEARNED SO FAR:
