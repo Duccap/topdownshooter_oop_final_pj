@@ -55,10 +55,7 @@ you are an unfortunate wizard in the zombie apocalypse. Your only magic is the a
 
 ### 3. UML CLASS DIAGRAM:
 Engine: ![](topdownshooter_oop_final_pj/images/EnemyUML.png)
-Player: ![](topdownshooter_oop_final_pj/images/PlayerUML.png)
-Enemy:![](topdownshooter_oop_final_pj/images/EnemyUML.png)
-Environment: ![](topdownshooter_oop_final_pj/images/environmentUML.png)
-UML: ![](topdownshooter_oop_final_pj/images/UML.png)
+
 
 
 ### 4. FEATURES:
